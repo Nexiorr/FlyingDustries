@@ -1,0 +1,203 @@
+/* styles.css */
+.root {
+    -fx-background-color: #EFEFEF;
+}
+/*
+.button {
+    -fx-background-color: #4CAF50;
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-padding: 10px;
+    -fx-font-family: "Comic Sans MS", "Comic Sans", cursive;
+}*/
+
+.label {
+    -fx-font-size: 16px;
+    -fx-text-fill: #333333;
+}
+
+.text-field {
+    -fx-font-size: 14px;
+    -fx-padding: 5px;
+}
+
+.check-box {
+    -fx-padding: 5px;
+}
+
+.combo-box {
+    -fx-padding: 5px;
+}
+
+/*menu deroulant*/
+.menu {
+    -fx-background-color: #4CAF50;
+    -fx-border-color: #5a5a5a;
+    -fx-border-width: 3px;
+    -fx-font-family: "Arial", sans-serif;
+    -fx-font-size: 2px;
+    -fx-max-height: 10px;
+    -fx-padding: 1px;
+}
+
+.recherche {
+    -fx-font-family: "Arial", sans-serif;
+}
+
+.top-hbox {
+    -fx-background-color: #333131;
+    -fx-pref-width: 400px;
+    -fx-padding: 3px;
+    -fx-pref-height: 10px;
+    -fx-max-height: 10px;
+    -fx-spacing: 10px;
+}
+
+.outilsBar {
+    -fx-background-color: #333131;
+    -fx-background-radius: 3px;
+    -fx-border-width: 10px;     /* Épaisseur de la bordure */
+    -fx-border-radius: 5px;    /* Rayon des coins de la bordure */
+}
+
+.main{
+    -fx-padding: 150px;
+
+}
+
+.inMain {
+    -fx-background-color: #ffffff;
+    -fx-background-radius: 20px;
+    -fx-max-width: 300px;
+    -fx-border-width: 0.5px;
+    -fx-border-color: black;
+    -fx-border-radius: 20px;
+    -fx-padding: 15px;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 10, 0, 0, 0);
+}
+
+.sliderBox {
+    -fx-background-color: #ffffff;
+    -fx-background-radius: 20px;
+    -fx-max-width: 300px;
+    -fx-border-width: 0.5px;
+    -fx-border-color: black;
+    -fx-border-radius: 20px;
+    -fx-padding: 15px;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 10, 0, 0, 0);
+}
+
+
+.background-image {
+    -fx-background-image: url("../pics/landscape4.jpg");
+    -fx-background-repeat: no-repeat;   
+    -fx-background-size: cover;
+    -fx-background-position: center;
+    -fx-effect: dropshadow(three-pass-box, black, 30, 0.5, 0, 0);  
+}
+
+/*
+.grid-image {
+    -fx-grid: true;
+    -fx-grid-rows: repeat(2, 1fr);
+    -fx-grid-columns: repeat(2, 1fr);
+}
+
+.image1, .image2, .image3 {
+    grid-row-span: 1; Each image spans one row 
+    grid-column-span: 1;  Each image spans one column 
+    align-items: center;  Center images vertically within cells 
+}
+
+.image1 {  Image on the left in the first row 
+    grid-row: 1;
+    grid-column: 1;
+}
+
+.image2 {  Image on the right in the second row 
+    grid-row: 2;
+    grid-column: 2;
+}
+
+.image3 {  Image on the left in the third row 
+    grid-row: 3;
+    grid-column: 1;
+}*/
+
+/*marche pas*/
+.label-align {
+    -fx-margin-left: auto;
+    -fx-text-alignment: left;
+}
+
+.slider {
+    -fx-pref-width: 2px;
+    -fx-padding: 10px;
+}
+
+.slider .track {
+    -fx-background-color: linear-gradient(to left, red, green);
+    -fx-background-insets: 0;
+    -fx-padding: 0.25em;
+}
+
+.slider .track .filled {
+    -fx-background-color: #000;
+    -fx-background-insets: 0;
+}
+
+.slider .thumb {
+    -fx-background-color: #d295d6;
+    -fx-effect: dropshadow( gaussian , rgba(0,0,0,0.75) , 10,0.5,0.0,0.0 );
+}
+
+.slider .tick {
+    -fx-stroke: transparent;
+}
+
+.slider .major-tick-mark {
+    -fx-stroke: transparent;
+}
+
+.slider .minor-tick-mark {
+    -fx-stroke: transparent;
+}
+
+.slider .label {
+    -fx-text-fill: transparent;
+}
+
+.image-label {
+    -fx-padding: 0 5px 0 0;
+}
+
+/*stackpane image*/
+
+.image-view {
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.5), 10, 0.5, 0, 0);
+    -fx-background-radius: 30px;
+    -fx-background-color: white;
+    -fx-border-radius: 30px;
+    -fx-border-width: 10px;
+    -fx-border-color: white;
+}
+
+.image-container {
+    -fx-padding: 20px;
+}
+
+.image-view:nth-child(1) {
+    -fx-translate-x: -100px;
+    -fx-translate-y: -50px;
+}
+
+.image-view:nth-child(2) {
+    -fx-translate-x: 0;
+    -fx-translate-y: 0;
+}
+
+.image-view:nth-child(3) {
+    -fx-translate-x: 400px;
+    -fx-translate-y: 250px;
+}
+

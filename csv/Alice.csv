@@ -1,0 +1,7 @@
+Paris;Dijon;Train;30;10;90;
+Dijon;Macon;Train;15;5;60;
+Macon;Lyon;Train;10;3;45;
+Paris;Dijon;Bus;10;20;180;
+Dijon;Macon;Bus;5;10;120;
+Macon;Lyon;Bus;5;8;90;
+Paris;Lyon;Avion;100;150;60;
